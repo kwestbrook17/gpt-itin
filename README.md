@@ -1,44 +1,44 @@
-# OpenAI API Quickstart - Node.js example app
+# National Parks Itinerary Generator
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://platform.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
+## Description
+This is a React-based application that generates itineraries for visits to various national parks. Users can select a park and specify the number of days for their visit. The application interacts with the OpenAI API to generate detailed itineraries.
 
-![Text box that says name my pet with an icon of a dog](https://user-images.githubusercontent.com/10623307/213887080-b2bc4645-7fdb-4dbd-ae42-efce00d0dc29.png)
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [API Setup](#api-setup)
+4. [License](#license)
+5. [Contributions](#contributions)
+6. [Tests](#tests)
+7. [Questions](#questions)
 
+## Installation
+To run this application, follow these steps:
 
-## Setup
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the necessary dependencies by running `npm install`.
+4. Start the application by running `npm run dev`.
 
-1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/) (Node.js version >= 14.6.0 required)
+## Usage
+1. Select a national park from the dropdown menu.
+2. Enter the desired number of days for your visit.
+3. Click the "Generate Itinerary" button to receive a detailed itinerary.
 
-2. Clone this repository
+## API Setup
+This application requires an OpenAI API key for itinerary generation. 
 
-3. Navigate into the project directory
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-   ```bash
-   $ cd openai-quickstart-node
-   ```
+## Contributions
+Contributions are not currently accepted for this project.
 
-4. Install the requirements
+## Tests
+There are currently no tests available for this application.
 
-   ```bash
-   $ npm install
-   ```
+## Questions
+If you have any further questions, feel free to reach out:
 
-5. Make a copy of the example environment variables file
+- [GitHub Profile](https://github.com/kwestbrook17)
 
-   On Linux systems: 
-   ```bash
-   $ cp .env.example .env
-   ```
-   On Windows:
-   ```powershell
-   $ copy .env.example .env
-   ```
-6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
-
-7. Run the app
-
-   ```bash
-   $ npm run dev
-   ```
-
-You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this example app, check out the [tutorial](https://platform.openai.com/docs/quickstart).
